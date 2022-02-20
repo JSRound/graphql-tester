@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JSRound/graphql-tester/issues"
   },
-  "homepage": "https://github.com/JSRound/graphql-tester#readme"
+  "homepage": "https://github.com/JSRound/graphql-tester#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
