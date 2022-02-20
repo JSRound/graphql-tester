@@ -2,9 +2,9 @@
   "name": "graphql-tester",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --ci --verbose"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/JSRound/graphql-tester#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "peerDependencies": {
+    "node-notifier": "10.0.1"
   }
 }
