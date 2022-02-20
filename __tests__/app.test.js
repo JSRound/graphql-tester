@@ -1,4 +1,4 @@
-const app = require('../index.js');
+const app = require('../app.js');
 
 describe('testing the app', () => {
   test('is a express app', async function () {
