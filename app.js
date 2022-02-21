@@ -6,4 +6,4 @@ app.get('/', (req, res)=>{
     res.send('hola que ase');
 });
 
-module.export = app;
+module.exports = app;
